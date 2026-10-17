@@ -1,0 +1,14 @@
+{
+  "name": "omnicampus",
+  "version": "2.0.0",
+  "description": "Admin-mediated university brand-ambassador platform with AI matching (React + Node + SQLite)",
+  "main": "server.js",
+  "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "start": "node server.js",
+    "dev:client": "npm --prefix client run dev",
+    "test": "node test.js"
+  },
+  "engines": { "node": ">=22.13" },
+  "license": "MIT"
+}
